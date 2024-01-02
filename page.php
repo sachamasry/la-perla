@@ -59,9 +59,7 @@ $fitmas_breadcrumb_select_html = fitmas_option('fitmas_breadcrumb_select_html', 
 
         <?php if ( has_post_thumbnail()) : ?>
             <div class="page-banner">
-                  <img
-                    src="<?php echo get_the_post_thumbnail_url( get_the_ID(), 'fitmas-xxlarge' ) ?>"
-                    alt="<?php echo get_post_meta( get_post_thumbnail_id(), '_wp_attachment_image_alt', true ); ?>">
+                               <? the_post_thumbnail() ?>
             </div>
         <?php endif; ?>
 
