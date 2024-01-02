@@ -1,0 +1,1688 @@
+/*
+Theme Name: La Perla (Fitmas child)
+Author: Sacha El Masry
+Description: This theme is for La Perla website, a child of Fitmas
+Author URI:   https://sachamasry.com/
+Version: 1.0.0
+Template: fitmas
+
+This is the La Perla theme, a child theme of Fitmas.
+*/
+
+/************************************************************************
+ * FONTS
+ ************************************************************************/
+
+/*** DISPLAY FONT: BITTER PRO HT ***/
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('assets/fonts/bitterpro-ht/subset-BitterPro-Bold.woff2') format('woff2'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-Bold.woff') format('woff'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-Bold.svg#BitterPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('assets/fonts/bitterpro-ht/subset-BitterPro-BoldItalic.woff2') format('woff2'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-BoldItalic.woff') format('woff'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-BoldItalic.svg#BitterPro-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('assets/fonts/bitterpro-ht/subset-BitterPro-ExtraLight.woff2') format('woff2'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-ExtraLight.woff') format('woff'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-ExtraLight.svg#BitterPro-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('assets/fonts/bitterpro-ht/subset-BitterPro-ExtraLightItalic.woff2') format('woff2'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-ExtraLightItalic.woff') format('woff'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-ExtraLightItalic.svg#BitterPro-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('assets/fonts/bitterpro-ht/subset-BitterPro-Light.woff2') format('woff2'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-Light.woff') format('woff'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-Light.svg#BitterPro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('assets/fonts/bitterpro-ht/subset-BitterPro-Italic.woff2') format('woff2'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-Italic.woff') format('woff'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-Italic.svg#BitterPro-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('assets/fonts/bitterpro-ht/subset-BitterPro-MediumItalic.woff2') format('woff2'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-MediumItalic.woff') format('woff'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-MediumItalic.svg#BitterPro-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('assets/fonts/bitterpro-ht/subset-BitterPro-LightItalic.woff2') format('woff2'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-LightItalic.woff') format('woff'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-LightItalic.svg#BitterPro-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('assets/fonts/bitterpro-ht/subset-BitterPro-Medium.woff2') format('woff2'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-Medium.woff') format('woff'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-Medium.svg#BitterPro-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('assets/fonts/bitterpro-ht/subset-BitterPro-SemiBold.woff2') format('woff2'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-SemiBold.woff') format('woff'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-SemiBold.svg#BitterPro-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('assets/fonts/bitterpro-ht/subset-BitterPro-Regular.woff2') format('woff2'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-Regular.woff') format('woff'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-Regular.svg#BitterPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('assets/fonts/bitterpro-ht/subset-BitterPro-Thin.woff2') format('woff2'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-Thin.woff') format('woff'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-Thin.svg#BitterPro-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('assets/fonts/bitterpro-ht/subset-BitterPro-ThinItalic.woff2') format('woff2'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-ThinItalic.woff') format('woff'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-ThinItalic.svg#BitterPro-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('assets/fonts/bitterpro-ht/subset-BitterPro-SemiBoldItalic.woff2') format('woff2'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-SemiBoldItalic.woff') format('woff'),
+        url('assets/fonts/bitterpro-ht/subset-BitterPro-SemiBoldItalic.svg#BitterPro-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+/*** BODY FONT: FIRA SANS ***/
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('assets/fonts/fira-sans/subset-FiraSans-Regular.woff2') format('woff2'),
+        url('assets/fonts/fira-sans/subset-FiraSans-Regular.woff') format('woff'),
+        url('assets/fonts/fira-sans/subset-FiraSans-Regular.svg#FiraSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans Book';
+    src: url('assets/fonts/fira-sans/subset-FiraSans-Book.woff2') format('woff2'),
+        url('assets/fonts/fira-sans/subset-FiraSans-Book.woff') format('woff'),
+        url('assets/fonts/fira-sans/subset-FiraSans-Book.svg#FiraSans-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('assets/fonts/fira-sans/subset-FiraSans-Bold.woff2') format('woff2'),
+        url('assets/fonts/fira-sans/subset-FiraSans-Bold.woff') format('woff'),
+        url('assets/fonts/fira-sans/subset-FiraSans-Bold.svg#FiraSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('assets/fonts/fira-sans/subset-FiraSans-BoldItalic.woff2') format('woff2'),
+        url('assets/fonts/fira-sans/subset-FiraSans-BoldItalic.woff') format('woff'),
+        url('assets/fonts/fira-sans/subset-FiraSans-BoldItalic.svg#FiraSans-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('assets/fonts/fira-sans/subset-FiraSans-ExtraBold.woff2') format('woff2'),
+        url('assets/fonts/fira-sans/subset-FiraSans-ExtraBold.woff') format('woff'),
+        url('assets/fonts/fira-sans/subset-FiraSans-ExtraBold.svg#FiraSans-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans Book';
+    src: url('assets/fonts/fira-sans/subset-FiraSans-BookItalic.woff2') format('woff2'),
+        url('assets/fonts/fira-sans/subset-FiraSans-BookItalic.woff') format('woff'),
+        url('assets/fonts/fira-sans/subset-FiraSans-BookItalic.svg#FiraSans-BookItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('assets/fonts/fira-sans/subset-FiraSans-Italic.woff2') format('woff2'),
+        url('assets/fonts/fira-sans/subset-FiraSans-Italic.woff') format('woff'),
+        url('assets/fonts/fira-sans/subset-FiraSans-Italic.svg#FiraSans-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('assets/fonts/fira-sans/subset-FiraSans-Light.woff2') format('woff2'),
+        url('assets/fonts/fira-sans/subset-FiraSans-Light.woff') format('woff'),
+        url('assets/fonts/fira-sans/subset-FiraSans-Light.svg#FiraSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('assets/fonts/fira-sans/subset-FiraSans-ExtraBoldItalic.woff2') format('woff2'),
+        url('assets/fonts/fira-sans/subset-FiraSans-ExtraBoldItalic.woff') format('woff'),
+        url('assets/fonts/fira-sans/subset-FiraSans-ExtraBoldItalic.svg#FiraSans-ExtraBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('assets/fonts/fira-sans/subset-FiraSans-Medium.woff2') format('woff2'),
+        url('assets/fonts/fira-sans/subset-FiraSans-Medium.woff') format('woff'),
+        url('assets/fonts/fira-sans/subset-FiraSans-Medium.svg#FiraSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('assets/fonts/fira-sans/subset-FiraSans-LightItalic.woff2') format('woff2'),
+        url('assets/fonts/fira-sans/subset-FiraSans-LightItalic.woff') format('woff'),
+        url('assets/fonts/fira-sans/subset-FiraSans-LightItalic.svg#FiraSans-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('assets/fonts/fira-sans/subset-FiraSans-ThinItalic.woff2') format('woff2'),
+        url('assets/fonts/fira-sans/subset-FiraSans-ThinItalic.woff') format('woff'),
+        url('assets/fonts/fira-sans/subset-FiraSans-ThinItalic.svg#FiraSans-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('assets/fonts/fira-sans/subset-FiraSans-MediumItalic.woff2') format('woff2'),
+        url('assets/fonts/fira-sans/subset-FiraSans-MediumItalic.woff') format('woff'),
+        url('assets/fonts/fira-sans/subset-FiraSans-MediumItalic.svg#FiraSans-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('assets/fonts/fira-sans/subset-FiraSans-Thin.woff2') format('woff2'),
+        url('assets/fonts/fira-sans/subset-FiraSans-Thin.woff') format('woff'),
+        url('assets/fonts/fira-sans/subset-FiraSans-Thin.svg#FiraSans-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+/************************************************************************
+ * ROOT VARIABLES
+ ************************************************************************/
+:root {
+    --theme-color: #499eb5;
+    --theme-color-light: hsl(193, 43%, 67%);
+    --theme-color-light1: hsl(193, 43%, 70%);
+    --theme-color-light2: hsl(193, 43%, 75%);
+    --theme-color-light3: hsl(193, 43%, 80%);
+    --theme-color-light4: hsl(193, 43%, 85%);
+    --theme-color-light5: hsl(193, 43%, 90%);
+    --title-color: var(--nord0);
+    --body-color: var(--nord0);
+    --smoke-color: #F3F3F3;
+    --smoke-color: hsl(218, 27%, 96%);
+    --smoke-color-light1: hsl(218, 27%, 96%);
+    --smoke-color-light2: hsl(218, 27%, 98%);
+    --smoke-color2: #F6F6F7;
+    --smoke-color3: #F5F5F6;
+    --smoke-color4: #F4F4F4;
+    --smoke-color5: #F0F2F4;
+    --black-color: var(--nord0);
+    --gray-color: var(--nord1);
+    --white-color: #ffffff;
+    --light-color: var(--nord4);
+    --yellow-color: var(--nord13);
+    --success-color: var(--nord14);
+    --error-color: var(--nord11);
+    --border-color: var(--nord15);
+    --title-font: "Bitter Pro", serif;
+    --display-font: var(--title-font);
+    --body-font: "Fira Sans", sans-serif;
+    --body-font-weight: 300;
+}
+
+/*** NORD COLOUR PALETTE ***/
+:root {
+  /*
+  Base component color of "Polar Night".
+
+  Used for texts, backgrounds, carets and structuring characters like curly- and square brackets.
+
+  Markup:
+  <div style="background-color:#2e3440; width=60; height=60"></div>
+
+  Styleguide Nord - Polar Night
+  */
+  --nord0: #2e3440;
+
+  /*
+  Lighter shade color of the base component color.
+
+  Used as a lighter background color for UI elements like status bars.
+
+  Markup:
+  <div style="background-color:#3b4252; width=60; height=60"></div>
+
+  Styleguide Nord - Polar Night
+  */
+  --nord1: #3b4252;
+
+  /*
+  Lighter shade color of the base component color.
+
+  Used as line highlighting in the editor.
+  In the UI scope it may be used as selection- and highlight color.
+
+  Markup:
+  <div style="background-color:#434c5e; width=60; height=60"></div>
+
+  Styleguide Nord - Polar Night
+  */
+  --nord2: #434c5e;
+
+  /*
+  Lighter shade color of the base component color.
+
+  Used for comments, invisibles, indent- and wrap guide marker.
+  In the UI scope used as pseudoclass color for disabled elements.
+
+  Markup:
+  <div style="background-color:#4c566a; width=60; height=60"></div>
+
+  Styleguide Nord - Polar Night
+  */
+  --nord3: #4c566a;
+
+  /*
+  Base component color of "Snow Storm".
+
+  Main color for text, variables, constants and attributes.
+  In the UI scope used as semi-light background depending on the theme shading design.
+
+  Markup:
+  <div style="background-color:#d8dee9; width=60; height=60"></div>
+
+  Styleguide Nord - Snow Storm
+  */
+  --nord4: #d8dee9;
+
+  /*
+  Lighter shade color of the base component color.
+
+  Used as a lighter background color for UI elements like status bars.
+  Used as semi-light background depending on the theme shading design.
+
+  Markup:
+  <div style="background-color:#e5e9f0; width=60; height=60"></div>
+
+  Styleguide Nord - Snow Storm
+  */
+  --nord5: #e5e9f0;
+
+  /*
+  Lighter shade color of the base component color.
+
+  Used for punctuations, carets and structuring characters like curly- and square brackets.
+  In the UI scope used as background, selection- and highlight color depending on the theme shading design.
+
+  Markup:
+  <div style="background-color:#eceff4; width=60; height=60"></div>
+
+  Styleguide Nord - Snow Storm
+  */
+  --nord6: #eceff4;
+
+  /*
+  Bluish core color.
+
+  Used for classes, types and documentation tags.
+
+  Markup:
+  <div style="background-color:#8fbcbb; width=60; height=60"></div>
+
+  Styleguide Nord - Frost
+  */
+  --nord7: #8fbcbb;
+
+  /*
+  Bluish core accent color.
+
+  Represents the accent color of the color palette.
+  Main color for primary UI elements and methods/functions.
+
+  Can be used for
+    - Markup quotes
+    - Markup link URLs
+
+  Markup:
+  <div style="background-color:#88c0d0; width=60; height=60"></div>
+
+  Styleguide Nord - Frost
+  */
+  --nord8: #88c0d0;
+
+  /*
+  Bluish core color.
+
+  Used for language-specific syntactic/reserved support characters and keywords, operators, tags, units and
+  punctuations like (semi)colons,commas and braces.
+
+  Markup:
+  <div style="background-color:#81a1c1; width=60; height=60"></div>
+
+  Styleguide Nord - Frost
+  */
+  --nord9: #81a1c1;
+
+  /*
+  Bluish core color.
+
+  Used for markup doctypes, import/include/require statements, pre-processor statements and at-rules (`@`).
+
+  Markup:
+  <div style="background-color:#5e81ac; width=60; height=60"></div>
+
+  Styleguide Nord - Frost
+  */
+  --nord10: #5e81ac;
+
+  /*
+  Colorful component color.
+
+  Used for errors, git/diff deletion and linter marker.
+
+  Markup:
+  <div style="background-color:#bf616a; width=60; height=60"></div>
+
+  Styleguide Nord - Aurora
+  */
+  --nord11: #bf616a;
+
+  /*
+  Colorful component color.
+
+  Used for annotations.
+
+  Markup:
+  <div style="background-color:#d08770; width=60; height=60"></div>
+
+  Styleguide Nord - Aurora
+  */
+  --nord12: #d08770;
+
+  /*
+  Colorful component color.
+
+  Used for escape characters, regular expressions and markup entities.
+  In the UI scope used for warnings and git/diff renamings.
+
+  Markup:
+  <div style="background-color:#ebcb8b; width=60; height=60"></div>
+
+  Styleguide Nord - Aurora
+  */
+  --nord13: #ebcb8b;
+
+  /*
+  Colorful component color.
+
+  Main color for strings and attribute values.
+  In the UI scope used for git/diff additions and success visualizations.
+
+  Markup:
+  <div style="background-color:#a3be8c; width=60; height=60"></div>
+
+  Styleguide Nord - Aurora
+  */
+  --nord14: #a3be8c;
+
+  /*
+  Colorful component color.
+
+  Used for numbers.
+
+  Markup:
+  <div style="background-color:#b48ead; width=60; height=60"></div>
+
+  Styleguide Nord - Aurora
+  */
+  --nord15: #b48ead;
+}
+
+/************************************************************************
+ *
+ * Start of Missing Bootstrap utility definitions 
+ *
+ * These are utilities including all breakpoint variations, which are
+ * for some reason not included in the distribution of Bootstrap shipped
+ * with this theme.
+ *
+ ************************************************************************/
+
+/* Media breakpoint template 
+@media (min-width: 576px) {}
+@media (min-width: 768px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+@media (min-width: 1400px) {}
+*/
+
+@media (min-width: 768px) {
+  .mx-md-0 {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .mx-md-1 {
+    margin-right: 0.25rem !important;
+    margin-left: 0.25rem !important;
+  }
+  .mx-md-2 {
+    margin-right: 0.5rem !important;
+    margin-left: 0.5rem !important;
+  }
+  .mx-md-3 {
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
+  }
+  .mx-md-4 {
+    margin-right: 1.5rem !important;
+    margin-left: 1.5rem !important;
+  }
+  .mx-md-5 {
+    margin-right: 3rem !important;
+    margin-left: 3rem !important;
+  }
+  .mx-md-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .my-md-0 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .my-md-1 {
+    margin-top: 0.25rem !important;
+    margin-bottom: 0.25rem !important;
+  }
+  .my-md-2 {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+  .my-md-3 {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+  .my-md-4 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  .my-md-5 {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+  }
+  .my-md-auto {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+  .mt-md-0 {
+    margin-top: 0 !important;
+  }
+  .mt-md-1 {
+    margin-top: 0.25rem !important;
+  }
+  .mt-md-2 {
+    margin-top: 0.5rem !important;
+  }
+  .mt-md-3 {
+    margin-top: 1rem !important;
+  }
+  .mt-md-4 {
+    margin-top: 1.5rem !important;
+  }
+  .mt-md-5 {
+    margin-top: 3rem !important;
+  }
+  .mt-md-auto {
+    margin-top: auto !important;
+  }
+  .me-md-0 {
+    margin-right: 0 !important;
+  }
+  .me-md-1 {
+    margin-right: 0.25rem !important;
+  }
+  .me-md-2 {
+    margin-right: 0.5rem !important;
+  }
+  .me-md-3 {
+    margin-right: 1rem !important;
+  }
+  .me-md-4 {
+    margin-right: 1.5rem !important;
+  }
+  .me-md-5 {
+    margin-right: 3rem !important;
+  }
+  .me-md-auto {
+    margin-right: auto !important;
+  }
+  .mb-md-0 {
+    margin-bottom: 0 !important;
+  }
+  .mb-md-1 {
+    margin-bottom: 0.25rem !important;
+  }
+  .mb-md-2 {
+    margin-bottom: 0.5rem !important;
+  }
+  .mb-md-3 {
+    margin-bottom: 1rem !important;
+  }
+  .mb-md-4 {
+    margin-bottom: 1.5rem !important;
+  }
+  .mb-md-5 {
+    margin-bottom: 3rem !important;
+  }
+  .mb-md-auto {
+    margin-bottom: auto !important;
+  }
+  .ms-md-0 {
+    margin-left: 0 !important;
+  }
+  .ms-md-1 {
+    margin-left: 0.25rem !important;
+  }
+  .ms-md-2 {
+    margin-left: 0.5rem !important;
+  }
+  .ms-md-3 {
+    margin-left: 1rem !important;
+  }
+  .ms-md-4 {
+    margin-left: 1.5rem !important;
+  }
+  .ms-md-5 {
+    margin-left: 3rem !important;
+  }
+}
+@media (min-width: 992px) {
+      .mx-lg-0 {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .mx-lg-1 {
+    margin-right: 0.25rem !important;
+    margin-left: 0.25rem !important;
+  }
+  .mx-lg-2 {
+    margin-right: 0.5rem !important;
+    margin-left: 0.5rem !important;
+  }
+  .mx-lg-3 {
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
+  }
+  .mx-lg-4 {
+    margin-right: 1.5rem !important;
+    margin-left: 1.5rem !important;
+  }
+  .mx-lg-5 {
+    margin-right: 3rem !important;
+    margin-left: 3rem !important;
+  }
+  .mx-lg-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .my-lg-0 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .my-lg-1 {
+    margin-top: 0.25rem !important;
+    margin-bottom: 0.25rem !important;
+  }
+  .my-lg-2 {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+  .my-lg-3 {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+  .my-lg-4 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  .my-lg-5 {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+  }
+  .my-lg-auto {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+  .mt-lg-0 {
+    margin-top: 0 !important;
+  }
+  .mt-lg-1 {
+    margin-top: 0.25rem !important;
+  }
+  .mt-lg-2 {
+    margin-top: 0.5rem !important;
+  }
+  .mt-lg-3 {
+    margin-top: 1rem !important;
+  }
+  .mt-lg-4 {
+    margin-top: 1.5rem !important;
+  }
+  .mt-lg-5 {
+    margin-top: 3rem !important;
+  }
+  .mt-lg-auto {
+    margin-top: auto !important;
+  }
+  .me-lg-0 {
+    margin-right: 0 !important;
+  }
+  .me-lg-1 {
+    margin-right: 0.25rem !important;
+  }
+  .me-lg-2 {
+    margin-right: 0.5rem !important;
+  }
+  .me-lg-3 {
+    margin-right: 1rem !important;
+  }
+  .me-lg-4 {
+    margin-right: 1.5rem !important;
+  }
+  .me-lg-5 {
+    margin-right: 3rem !important;
+  }
+  .me-lg-auto {
+    margin-right: auto !important;
+  }
+  .mb-lg-0 {
+    margin-bottom: 0 !important;
+  }
+  .mb-lg-1 {
+    margin-bottom: 0.25rem !important;
+  }
+  .mb-lg-2 {
+    margin-bottom: 0.5rem !important;
+  }
+  .mb-lg-3 {
+    margin-bottom: 1rem !important;
+  }
+  .mb-lg-4 {
+    margin-bottom: 1.5rem !important;
+  }
+  .mb-lg-5 {
+    margin-bottom: 3rem !important;
+  }
+  .mb-lg-auto {
+    margin-bottom: auto !important;
+  }
+  .ms-lg-0 {
+    margin-left: 0 !important;
+  }
+  .ms-lg-1 {
+    margin-left: 0.25rem !important;
+  }
+  .ms-lg-2 {
+    margin-left: 0.5rem !important;
+  }
+  .ms-lg-3 {
+    margin-left: 1rem !important;
+  }
+  .ms-lg-4 {
+    margin-left: 1.5rem !important;
+  }
+  .ms-lg-5 {
+    margin-left: 3rem !important;
+  }
+  .ms-lg-auto {
+    margin-left: auto !important;
+  }
+}
+@media (min-width: 1200px) {
+      .mx-xl-0 {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .mx-xl-1 {
+    margin-right: 0.25rem !important;
+    margin-left: 0.25rem !important;
+  }
+  .mx-xl-2 {
+    margin-right: 0.5rem !important;
+    margin-left: 0.5rem !important;
+  }
+  .mx-xl-3 {
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
+  }
+  .mx-xl-4 {
+    margin-right: 1.5rem !important;
+    margin-left: 1.5rem !important;
+  }
+  .mx-xl-5 {
+    margin-right: 3rem !important;
+    margin-left: 3rem !important;
+  }
+  .mx-xl-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .my-xl-0 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .my-xl-1 {
+    margin-top: 0.25rem !important;
+    margin-bottom: 0.25rem !important;
+  }
+  .my-xl-2 {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+  .my-xl-3 {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+  .my-xl-4 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  .my-xl-5 {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+  }
+  .my-xl-auto {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+  .mt-xl-0 {
+    margin-top: 0 !important;
+  }
+  .mt-xl-1 {
+    margin-top: 0.25rem !important;
+  }
+  .mt-xl-2 {
+    margin-top: 0.5rem !important;
+  }
+  .mt-xl-3 {
+    margin-top: 1rem !important;
+  }
+  .mt-xl-4 {
+    margin-top: 1.5rem !important;
+  }
+  .mt-xl-5 {
+    margin-top: 3rem !important;
+  }
+  .mt-xl-auto {
+    margin-top: auto !important;
+  }
+  .me-xl-0 {
+    margin-right: 0 !important;
+  }
+  .me-xl-1 {
+    margin-right: 0.25rem !important;
+  }
+  .me-xl-2 {
+    margin-right: 0.5rem !important;
+  }
+  .me-xl-3 {
+    margin-right: 1rem !important;
+  }
+  .me-xl-4 {
+    margin-right: 1.5rem !important;
+  }
+  .me-xl-5 {
+    margin-right: 3rem !important;
+  }
+  .me-xl-auto {
+    margin-right: auto !important;
+  }
+  .mb-xl-0 {
+    margin-bottom: 0 !important;
+  }
+  .mb-xl-1 {
+    margin-bottom: 0.25rem !important;
+  }
+  .mb-xl-2 {
+    margin-bottom: 0.5rem !important;
+  }
+  .mb-xl-3 {
+    margin-bottom: 1rem !important;
+  }
+  .mb-xl-4 {
+    margin-bottom: 1.5rem !important;
+  }
+  .mb-xl-5 {
+    margin-bottom: 3rem !important;
+  }
+  .mb-xl-auto {
+    margin-bottom: auto !important;
+  }
+  .ms-xl-0 {
+    margin-left: 0 !important;
+  }
+  .ms-xl-1 {
+    margin-left: 0.25rem !important;
+  }
+  .ms-xl-2 {
+    margin-left: 0.5rem !important;
+  }
+  .ms-xl-3 {
+    margin-left: 1rem !important;
+  }
+  .ms-xl-4 {
+    margin-left: 1.5rem !important;
+  }
+  .ms-xl-5 {
+    margin-left: 3rem !important;
+  }
+  .ms-xl-auto {
+    margin-left: auto !important;
+  }
+}
+@media (min-width: 1400px) {
+      .mx-xl-0 {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .mx-xl-1 {
+    margin-right: 0.25rem !important;
+    margin-left: 0.25rem !important;
+  }
+  .mx-xl-2 {
+    margin-right: 0.5rem !important;
+    margin-left: 0.5rem !important;
+  }
+  .mx-xl-3 {
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
+  }
+  .mx-xl-4 {
+    margin-right: 1.5rem !important;
+    margin-left: 1.5rem !important;
+  }
+  .mx-xl-5 {
+    margin-right: 3rem !important;
+    margin-left: 3rem !important;
+  }
+  .mx-xl-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .my-xl-0 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .my-xl-1 {
+    margin-top: 0.25rem !important;
+    margin-bottom: 0.25rem !important;
+  }
+  .my-xl-2 {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+  .my-xl-3 {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+  .my-xl-4 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  .my-xl-5 {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+  }
+  .my-xl-auto {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+  .mt-xl-0 {
+    margin-top: 0 !important;
+  }
+  .mt-xl-1 {
+    margin-top: 0.25rem !important;
+  }
+  .mt-xl-2 {
+    margin-top: 0.5rem !important;
+  }
+  .mt-xl-3 {
+    margin-top: 1rem !important;
+  }
+  .mt-xl-4 {
+    margin-top: 1.5rem !important;
+  }
+  .mt-xl-5 {
+    margin-top: 3rem !important;
+  }
+  .mt-xl-auto {
+    margin-top: auto !important;
+  }
+  .me-xl-0 {
+    margin-right: 0 !important;
+  }
+  .me-xl-1 {
+    margin-right: 0.25rem !important;
+  }
+  .me-xl-2 {
+    margin-right: 0.5rem !important;
+  }
+  .me-xl-3 {
+    margin-right: 1rem !important;
+  }
+  .me-xl-4 {
+    margin-right: 1.5rem !important;
+  }
+  .me-xl-5 {
+    margin-right: 3rem !important;
+  }
+  .me-xl-auto {
+    margin-right: auto !important;
+  }
+  .mb-xl-0 {
+    margin-bottom: 0 !important;
+  }
+  .mb-xl-1 {
+    margin-bottom: 0.25rem !important;
+  }
+  .mb-xl-2 {
+    margin-bottom: 0.5rem !important;
+  }
+  .mb-xl-3 {
+    margin-bottom: 1rem !important;
+  }
+  .mb-xl-4 {
+    margin-bottom: 1.5rem !important;
+  }
+  .mb-xl-5 {
+    margin-bottom: 3rem !important;
+  }
+  .mb-xl-auto {
+    margin-bottom: auto !important;
+  }
+  .ms-xl-0 {
+    margin-left: 0 !important;
+  }
+  .ms-xl-1 {
+    margin-left: 0.25rem !important;
+  }
+  .ms-xl-2 {
+    margin-left: 0.5rem !important;
+  }
+  .ms-xl-3 {
+    margin-left: 1rem !important;
+  }
+  .ms-xl-4 {
+    margin-left: 1.5rem !important;
+  }
+  .ms-xl-5 {
+    margin-left: 3rem !important;
+  }
+  .ms-xl-auto {
+    margin-left: auto !important;
+  }
+}
+
+/************************************************************************
+ *
+ * End of Missing Bootstrap utility definitions 
+ *
+ ************************************************************************/
+
+body {
+    font-size: 16px;
+    font-size: 1.3125rem;
+    font-weight: var(--body-font-weight);
+}
+
+h1, h2, h3, h4,
+.breadcrumb-title {
+    font-weight: 300;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+
+h1,
+.breadcrumb-title {
+    color: white;
+    letter-spacing: 0.5rem;
+    line-height: 5.25rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 1.1666;
+}
+
+h2, h3,
+.wp-block-cover .wp-block-heading.cover-block-h2-heading {
+    color: var(--theme-color);
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.333rem;
+    font-weight: 400;
+    line-height: 1.3125;
+}
+
+h5, h6 {
+    /* color: var(--body-color); */
+    /* letter-spacing: 0; */
+    font-weight: 400;
+}
+
+/* Style lead and call to action paragraphs in a distinctive way */
+.lead,
+.call-to-action, .cta {
+    font-family: var(--display-font);
+    font-size: 1.5rem;
+    line-height: 1.6666;
+}
+
+/* Style block quotations */
+blockquote,
+.wp-block-quote {
+    border: 1px solid var(--nord15);
+    background-color: white;
+    padding-bottom: 2rem;
+    padding-top: 5.5rem;
+}
+
+blockquote::before,
+.wp-block-quote::before {
+    background: url('assets/images/icons8-quote-left-40.png') 0 0 no-repeat;
+    border-radius: 0;
+    content: "";
+    top: 1.5rem;
+    left: 2rem;
+    height: 2.5rem;
+}
+
+blockquote::after,
+.wp-block-quote::after {
+    content: "";
+    background: url('assets/images/five-stars-min.svg') 50% 0 no-repeat;
+    height: 1.5rem;
+    display: block;
+    margin-top: 2rem;
+}
+
+blockquote p,
+.wp-block-quote p {
+    font-family: var(--display-font);
+    font-style: italic;
+    font-weight: 350;
+}
+
+blockquote cite,
+.wp-block-quote cite {
+    font-size: 1.3125rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.3333;
+}
+
+.section-introduction {
+    font-family: var(--display-font);
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.3333;
+}
+
+.testimonials-section,
+.testimonials-carousel {
+    background: var(--nord5);
+    background: white;
+}
+
+.testimonials-carousel .strip,
+.testimonials-strip,
+.testimonials-row {
+    height: auto !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    border: none;
+    border-radius: 50%;
+    bottom: auto;
+    opacity: 0.25;
+    right: 1rem;
+    top: 50%;
+    width: 2.125rem;
+}
+
+.carousel-control-prev {
+    left: 1rem;
+}
+
+/* Style call to action buttons distinctively */
+.call-to-action-button a, .cta-button a,
+.link-button a {
+    background-color: var(--nord6);
+    border-color: var(--nord8);
+    border-radius: 0.75rem;
+    border-style: solid;
+    border-width: 3px;
+    color: var(--nord0);
+}
+
+.wp-block-button a.wp-block-button__link {
+    border-radius: 0.75rem;
+    color: var(--nord10);
+    font-family: var(--body-font);
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    text-transform: uppercase;
+}
+
+.wp-block-buttons > .wp-block-button.has-custom-font-size .wp-block-button__link {
+    font-size: 1.5rem;
+}
+
+/* Add letter spacing to main menu uppercased links */
+.main-menu a,
+.mobile-menu ul li a {
+    color: var(--theme-color);
+    font-size: 1.125rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+.menu-toggle.icon-btn {
+    background: white;
+    border: 1px solid var(--theme-color);
+    color: var(--theme-color);
+}
+
+/* Style the menu bar background */
+.sticky-wrapper.sticky {
+    backdrop-filter: saturate(125%) blur(16px);
+    background: rgba(255, 255, 255, 0.90);
+    position: fixed;
+    top: -50px;
+}
+
+/* Style the page masthead, including featured image and title */
+.page-masthead {
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1,1)
+    }
+
+    50% {
+        transform: scale(1.2,1.2)
+    }
+
+    to {
+        transform: scale(1,1)
+    }
+}
+
+.page-banner {
+    left: 0;
+    height: 100%;
+    min-height: 0;
+    min-width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+
+.page-banner img {
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 100%;
+}
+
+.page-banner img,
+.wp-block-cover.full-width-breakout img,
+.animate-zoom {
+    animation: zoom 120s infinite;
+}
+
+.breadcrumb-wrapper:before {
+    background: transparent;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.breadcrumb-wrapper {
+    bottom: 27%;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+}
+
+.page-masthead {
+    aspect-ratio: 1 / 1;
+}
+@media (min-width: 576px) {
+    .page-masthead {
+        aspect-ratio: 4 / 3;
+    }
+    .breadcrumb-wrapper {
+        bottom: 30%;
+    }
+}
+@media (min-width: 768px) {
+    .page-masthead {
+        aspect-ratio: 16 / 9;
+    }
+    .breadcrumb-wrapper {
+        bottom: 34%;
+    }
+}
+@media (min-width: 992px) {
+    .page-masthead {
+        aspect-ratio: 20 / 9;
+    }
+    .breadcrumb-wrapper {
+        bottom: 30%;
+    }
+}
+@media (min-width: 1200px) {
+    .page-masthead {
+        aspect-ratio: 24 / 9;
+    }
+    .breadcrumb-wrapper {
+        bottom: 27%;
+    }
+}
+@media (min-width: 1400px) {
+    .page-masthead {
+        aspect-ratio: 26 / 9;
+    }
+    .breadcrumb-wrapper {
+        bottom: 25%;
+    }
+}
+
+/* Style the layout of the main page content area */
+.site-main.content-area {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+/* Override footer defaults */
+.site-footer {
+    background: linear-gradient(173deg, rgba(136,192,208,1) 0%, rgba(129,161,193,1) 35%, rgba(94,129,172,1) 100%);
+    color: white;
+    line-height: 1.5238;
+}
+
+.site-footer p {
+    color: white;
+    line-height: 1.5238;
+}
+
+.site-footer p a {
+    color: white;
+}
+
+.site-footer .widget-area {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.footer-heading,
+p.footer-heading {
+    font-family: var(--title-font);
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    min-height: 2rem;
+    text-transform: uppercase;
+}
+
+.footer-widget {
+    margin-bottom: 0 !important;
+}
+
+.footer-widget .site-logo {
+    height: 10rem;
+}
+
+.footer-widget:has(.site-logo) {
+    bottom: 0;
+    height: 10rem;
+    position: absolute;
+    top: 100%;
+    translate: 0 -100%;
+}
+
+/* Modify display of links in paragraph blocks in the footer */
+/* The theme sets this to 'display: flex' which adds too much spacing */
+/* between sibling 'p' elements. Convert to 'display: block' for legacy behaviour */
+.site-footer .footer-link-block {
+    display: block;
+}
+
+/* Style the copyright notice */
+.copyright-wrap {
+    background: none;
+    line-height: 1.75;
+    padding-top: 0;
+    padding-bottom: 1.5rem;
+}
+
+/* Style links in copyright wrap section with a pleasing underline */
+.copyright-wrap a {
+    text-decoration-color: white;
+    text-decoration-line: underline;
+    text-decoration-skip-ink: auto;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2rem;
+    text-underline-position: auto;
+}
+
+.copyright-container {
+    border-top: 1px solid white;
+    padding-top: 1.5rem;
+}
+
+.copyright-text {
+    font-weight: 200;
+}
+
+/* Form styling */
+label,
+select,
+.single-select,
+.form-control,
+.form-select,
+textarea,
+input {
+    border-color: var(--theme-color-light4);
+    font-size: 1.3125rem;
+    font-weight: 300;
+}
+
+label:focus,
+select:focus,
+.single-select:focus,
+.form-control:focus,
+.form-select:focus,
+textarea:focus,
+input:focus {
+    background-color: var(--smoke-color-light2);
+}
+
+label {
+    margin-top: 1.5rem;
+}
+
+label input,
+label textarea {
+    margin-top: 0.5rem;
+}
+
+[type=button],
+[type=reset],
+[type=submit],
+input[type=submit],
+button,
+.wpcf7-submit {
+    background-color: var(--theme-color);
+    color: white;
+    margin-top: 0.5rem;
+}
+
+[type=button]:focus,
+[type=reset]:focus,
+[type=submit]:focus,
+input[type=submit]:focus,
+button:focus,
+.wpcf7-submit:focus {
+    background-color: var(--nord10);
+    border-color: var(--nord15);
+}
+
+input[type="radio"] ~ label::before {
+    font-size: 0.4em;
+}
+
+input[type="radio"] ~ label {
+    font-weight: 400;
+}
+
+/* Break out of containing box to create a temporary full-width breakout for the block */
+.full-width-breakout,
+.carousel.full-width-breakout,
+.map_display-full_width {
+    left: 50%;
+    margin-left: -50vw;
+    position: relative;
+    width: 100vw;
+}
+
+/* Adjust vertical margins on embedded map elements */
+.map_display-full_width {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+/* Create a block which is allowed to 'break-out' of its parent element and take the
+ * full screen width */
+.full-width-breakout .container,
+.full-width-breakout .wp-block-cover__inner-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    width: 100%;
+}
+
+/* Fix inconsistencies arising out of the creation of the full-width breakout block,
+ * especially, where the Wordpress theme clashes with Bootstrap */
+@media (min-width: 576px) {
+    .full-width-breakout .container {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .full-width-breakout .container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .full-width-breakout .container {
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .full-width-breakout .container {
+        max-width: 1140px;
+    }
+}
+@media (min-width: 1400px) {
+    .full-width-breakout .container {
+        max-width: 1320px;
+    }
+}
+@media (min-width: 1400px) {
+    .full-width-breakout .container {
+        max-width: calc(var(--main-container) + var(--container-gutters));
+    }
+}
+
+/* Style all images on website with subtly rounded corners and a thin border */
+img {
+    border-color: var(--theme-color);
+    border-radius: 0.75rem;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/* Override image styling for logo and other specific exceptions */
+.header-logo {
+    height: 6rem;
+}
+
+.logo img,
+.mobile-logo img,
+.header-logo img,
+.site-logo img {
+    border: none;
+    border-radius: 0;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.logo {
+    max-width: 10rem;
+}
+
+.mobile-menu-wrapper .mobile-logo {
+    background-color: transparent;
+    left: 3rem;
+    position: relative;
+    width: 12rem;
+}
+
+/* Style the features list group widget */
+.features {
+    font-family: var(--display-font);
+    font-size: 1.125rem;
+    font-style: italic;
+    line-height: 2.04166;
+}
+
+.list-group-item {
+    border-color: #88c0d0;
+}
+
+hr, .wp-block-separator {
+    background-color: var(--theme-color);
+    border-color: var(--theme-color);
+}
