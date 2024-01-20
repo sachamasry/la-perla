@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('subset-BitterPro-Bold.woff2') format('woff2'),
+        url('subset-BitterPro-Bold.woff') format('woff'),
+        url('subset-BitterPro-Bold.svg#BitterPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('subset-BitterPro-BoldItalic.woff2') format('woff2'),
+        url('subset-BitterPro-BoldItalic.woff') format('woff'),
+        url('subset-BitterPro-BoldItalic.svg#BitterPro-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('subset-BitterPro-ExtraLight.woff2') format('woff2'),
+        url('subset-BitterPro-ExtraLight.woff') format('woff'),
+        url('subset-BitterPro-ExtraLight.svg#BitterPro-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('subset-BitterPro-ExtraLightItalic.woff2') format('woff2'),
+        url('subset-BitterPro-ExtraLightItalic.woff') format('woff'),
+        url('subset-BitterPro-ExtraLightItalic.svg#BitterPro-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('subset-BitterPro-Light.woff2') format('woff2'),
+        url('subset-BitterPro-Light.woff') format('woff'),
+        url('subset-BitterPro-Light.svg#BitterPro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('subset-BitterPro-Italic.woff2') format('woff2'),
+        url('subset-BitterPro-Italic.woff') format('woff'),
+        url('subset-BitterPro-Italic.svg#BitterPro-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('subset-BitterPro-MediumItalic.woff2') format('woff2'),
+        url('subset-BitterPro-MediumItalic.woff') format('woff'),
+        url('subset-BitterPro-MediumItalic.svg#BitterPro-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('subset-BitterPro-LightItalic.woff2') format('woff2'),
+        url('subset-BitterPro-LightItalic.woff') format('woff'),
+        url('subset-BitterPro-LightItalic.svg#BitterPro-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('subset-BitterPro-Medium.woff2') format('woff2'),
+        url('subset-BitterPro-Medium.woff') format('woff'),
+        url('subset-BitterPro-Medium.svg#BitterPro-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('subset-BitterPro-SemiBold.woff2') format('woff2'),
+        url('subset-BitterPro-SemiBold.woff') format('woff'),
+        url('subset-BitterPro-SemiBold.svg#BitterPro-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('subset-BitterPro-Regular.woff2') format('woff2'),
+        url('subset-BitterPro-Regular.woff') format('woff'),
+        url('subset-BitterPro-Regular.svg#BitterPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('subset-BitterPro-Thin.woff2') format('woff2'),
+        url('subset-BitterPro-Thin.woff') format('woff'),
+        url('subset-BitterPro-Thin.svg#BitterPro-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('subset-BitterPro-ThinItalic.woff2') format('woff2'),
+        url('subset-BitterPro-ThinItalic.woff') format('woff'),
+        url('subset-BitterPro-ThinItalic.svg#BitterPro-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter Pro';
+    src: url('subset-BitterPro-SemiBoldItalic.woff2') format('woff2'),
+        url('subset-BitterPro-SemiBoldItalic.woff') format('woff'),
+        url('subset-BitterPro-SemiBoldItalic.svg#BitterPro-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+

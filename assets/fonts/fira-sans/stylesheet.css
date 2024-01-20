@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('subset-FiraSans-Regular.woff2') format('woff2'),
+        url('subset-FiraSans-Regular.woff') format('woff'),
+        url('subset-FiraSans-Regular.svg#FiraSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans Book';
+    src: url('subset-FiraSans-Book.woff2') format('woff2'),
+        url('subset-FiraSans-Book.woff') format('woff'),
+        url('subset-FiraSans-Book.svg#FiraSans-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('subset-FiraSans-Bold.woff2') format('woff2'),
+        url('subset-FiraSans-Bold.woff') format('woff'),
+        url('subset-FiraSans-Bold.svg#FiraSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('subset-FiraSans-BoldItalic.woff2') format('woff2'),
+        url('subset-FiraSans-BoldItalic.woff') format('woff'),
+        url('subset-FiraSans-BoldItalic.svg#FiraSans-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('subset-FiraSans-ExtraBold.woff2') format('woff2'),
+        url('subset-FiraSans-ExtraBold.woff') format('woff'),
+        url('subset-FiraSans-ExtraBold.svg#FiraSans-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans Book';
+    src: url('subset-FiraSans-BookItalic.woff2') format('woff2'),
+        url('subset-FiraSans-BookItalic.woff') format('woff'),
+        url('subset-FiraSans-BookItalic.svg#FiraSans-BookItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('subset-FiraSans-Italic.woff2') format('woff2'),
+        url('subset-FiraSans-Italic.woff') format('woff'),
+        url('subset-FiraSans-Italic.svg#FiraSans-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('subset-FiraSans-Light.woff2') format('woff2'),
+        url('subset-FiraSans-Light.woff') format('woff'),
+        url('subset-FiraSans-Light.svg#FiraSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('subset-FiraSans-ExtraBoldItalic.woff2') format('woff2'),
+        url('subset-FiraSans-ExtraBoldItalic.woff') format('woff'),
+        url('subset-FiraSans-ExtraBoldItalic.svg#FiraSans-ExtraBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('subset-FiraSans-Medium.woff2') format('woff2'),
+        url('subset-FiraSans-Medium.woff') format('woff'),
+        url('subset-FiraSans-Medium.svg#FiraSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('subset-FiraSans-LightItalic.woff2') format('woff2'),
+        url('subset-FiraSans-LightItalic.woff') format('woff'),
+        url('subset-FiraSans-LightItalic.svg#FiraSans-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('subset-FiraSans-ThinItalic.woff2') format('woff2'),
+        url('subset-FiraSans-ThinItalic.woff') format('woff'),
+        url('subset-FiraSans-ThinItalic.svg#FiraSans-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('subset-FiraSans-MediumItalic.woff2') format('woff2'),
+        url('subset-FiraSans-MediumItalic.woff') format('woff'),
+        url('subset-FiraSans-MediumItalic.svg#FiraSans-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('subset-FiraSans-Thin.woff2') format('woff2'),
+        url('subset-FiraSans-Thin.woff') format('woff'),
+        url('subset-FiraSans-Thin.svg#FiraSans-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
