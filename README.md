@@ -5,7 +5,7 @@ website.
 
 ## Overview
 
-![Rancho La Perla theme screenshot](screenshot.png "Rancho La Perla theme")
+![Rancho La Perla theme screenshot](screenshot.jpg "Rancho La Perla theme")
 
 The theme is a _child theme_ built upon
 [Fitmas](https://wptf.themepul.co/fitmas/), a theme by
